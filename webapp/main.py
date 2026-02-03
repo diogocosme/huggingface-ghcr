@@ -14,7 +14,7 @@ class Body(BaseModel):
 
 @app.get('/')
 def root():
-    print("Hello World!")
+    print("Hello World!!!!!!!!!!!!!!")
     return HTMLResponse("<h1>A self-documenting API to interact with a GPT2 model and generate text</h1>")
 
 
